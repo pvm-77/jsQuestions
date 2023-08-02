@@ -278,5 +278,151 @@
 
   ```
 
+# Aasif Iqbal
+## (Guess the output)
+01. var 
+```
+var fruit = 'apple'
+{
+  var fruit = 'orange'
+  console.log(fruit) // ??
+}
+
+console.log(fruit) // ??
+```
+02. var
+```
+var fruit = 'apple'
+
+function gimmeFruit() {
+  var fruit = 'orange'
+  console.log(fruit) // ??
+}
+
+console.log(fruit) // ??
+gimmeFruit()
+```
+03.let
+```
+let fruit = 'apple'
+
+{
+  let fruit = 'orange'
+  console.log(fruit) // ??
+}
+
+console.log(fruit) // ??
+```
+04. let
+```
+function foo(n) {
+    if (n == 6) {
+        let num = 2;
+    }
+    console.log(num);
+}
+
+var n = 6;
+console.log(n);
+foo(6);
+```
+05. let
+```
+for(var i=0;i<3;i++){
+  console.log(i)
+}
+console.log("i outside the loop: ", i);
+
+for(let j=0;j<3;j++){
+  console.log(j);
+}
+
+console.log("j oustide the loop :", j);
+```
+06. const
+```
+{
+  const fruit = 'apple'
+  fruit = 'orange'
+  console.log(fruit)
+}
+```
+07. const
+```
+if (true) const a = 1;
+```
+08.const
+```
+const MY_FAV = 7;
+
+if (MY_FAV === 7) {
+   
+  const MY_FAV = 20;
+  console.log(MY_FAV);  
+  
+  var MY_FAV = 20;  
+}
+
+console.log(MY_FAV); 
+```
+09. let and var
+```
+{  
+  console.log(bar);  
+  console.log(foo);  
+  var bar = 1;
+  let foo = 2;  
+}
+hint:TDZ
+```
+10. let and var
+```
+{
+
+  const func = () => console.log(letVar);
+
+  let letVar = 3; 
+  func(); 
+}
+
+```
+11. let and var
+```
+function test() {
+  var foo = 33;
+  if (foo) {
+    let foo = foo + 55; // ReferenceError
+  }
+}
+test();
+
+```
+12. let and var
+```
+function go(n) {
+  // n here is defined!
+  console.log(n); // { a: [1, 2, 3] }
+
+  for (let n of n.a) {
+    //          ^ ReferenceError
+    console.log(n);
+  }
+}
+
+go({ a: [1, 2, 3] });
+
+```
+13. let and var
+```
+let x = 1;
+
+{
+  var x = 2; // SyntaxError for re-declaration
+}
+
+```
+
+
+
 
 
