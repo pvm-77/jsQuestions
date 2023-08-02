@@ -452,7 +452,17 @@ f();
 
 console.log(x, y);
 
-```            
+```
+17. var
+```
+function foo(a) {
+  var a = 1;
+  console.log(a);
+}
+
+foo(2); // Logs 1
+
+ ```     
 
 
 
