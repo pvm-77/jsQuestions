@@ -302,7 +302,7 @@ function gimmeFruit() {
 console.log(fruit) // ??
 gimmeFruit()
 ```
-03.let
+03. let
 ```
 let fruit = 'apple'
 
@@ -351,7 +351,7 @@ console.log("j oustide the loop :", j);
 ```
 if (true) const a = 1;
 ```
-08.const
+08. const
 ```
 const MY_FAV = 7;
 
