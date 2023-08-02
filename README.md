@@ -421,7 +421,38 @@ let x = 1;
 }
 
 ```
+14. var
+```
+"use strict";
+var x = 1;
+Object.hasOwn(globalThis, "x"); // ??
+delete globalThis.x; // ??
+delete x; // ??
 
+```
+15. var
+```
+try {
+  throw 1;
+} catch (e) {
+  var e = 2; 
+}
+console.log(e); // ??
+
+```
+16. var
+```
+"use strict";
+
+var x = 0;
+function f() {
+  var x = y = 1;
+}
+f();
+
+console.log(x, y);
+
+```            
 
 
 
