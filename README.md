@@ -391,7 +391,7 @@ hint:TDZ
 function test() {
   var foo = 33;
   if (foo) {
-    let foo = foo + 55; // ReferenceError
+    let foo = foo + 55; 
   }
 }
 test();
@@ -400,11 +400,11 @@ test();
 12. let and var
 ```
 function go(n) {
-  // n here is defined!
-  console.log(n); // { a: [1, 2, 3] }
+  
+  console.log(n); 
 
   for (let n of n.a) {
-    //          ^ ReferenceError
+  
     console.log(n);
   }
 }
@@ -417,7 +417,7 @@ go({ a: [1, 2, 3] });
 let x = 1;
 
 {
-  var x = 2; // SyntaxError for re-declaration
+  var x = 2; 
 }
 
 ```
