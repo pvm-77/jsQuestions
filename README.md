@@ -1,4 +1,114 @@
-# Questions on [let var const] By Hussain Sarfaraz
+## Variable Declarations(let,const)
+1. what is the difference between `let` and const in js?
+2. How does let differ from `var` in term of block scope?
+3. why is using  `const` recommended for variables that wont change their value?
+4. can you reassign a value to a variable declared with `const`?
+5. what happens if you try to declare a variable with the same name using `let` within the same scope?
+6. how does the `temporal dead zone` relate to `let ` and  `const` declarations?
+
+## scope and closure
+7. explain what `scope` means in js?
+8. how does js handle variable scope in comparison to other programming languages?
+9. describe the difference between `global scope` and `local(function) scope`?
+10. can u access variables defined in a higher scope from lower scope?
+11. explain what a closure is and why its useful?
+12. how does a closure retain access to its outer function's variables even after the outer function has finished executing?
+
+## Block scope and Hoisting
+13. how does `let` differ from `var` regarding hoisting?
+
+
+
+
+14. in which cases will a variable declared with `var` be function-scoped rather than block-scoped?
+15. whats the significance of the`TDZ` with regard to block-scoped ?
+16. how do block scoped variables declared with `let` behave within loops and conditional statements?
+
+
+## Closure
+17. provide an example of a closure in js?
+18. how can u create closure intentionally?
+19. explain how closure can lead memory leaks if not handled properly?
+20. how can u use closure to create private varibles and encapsulation?
+21. whats the differnce between a closure and a function that returns a function?
+
+## practice with closure?
+
+22. write a function that increaments a counter each time its called?
+23. create a function that generates a sequence of unique IDs?
+24. build a simple module pattern using closures to create private methods and variables
+NOTE:important apllication of closure is module pattern
+## Advanced Closure Concepts:
+
+25. What is the "module pattern," and how does it relate to closures?
+26. Describe the "IIFE" (Immediately Invoked Function Expression) pattern and its purpose.
+    
+27. Explain the "this" context within a closure and how it can change based on how the closure is invoked.
+
+
+## Practical Applications:
+
+How can closures be useful in handling asynchronous operations, like callbacks?
+
+Describe how closures are employed in event handling, such as with addEventListener.
+
+Explain how closures can assist in creating iterators and generators.
+
+
+## Garbage Collection and Memory:
+
+Does a closure prevent its outer function's variables from being garbage-collected?
+
+How can you release memory associated with a closure?
+
+Explain the concept of "circular references" and how they might relate to closures.
+
+
+## Debugging and Best Practices:
+
+What challenges might closures pose when debugging code?
+
+How can you avoid unintended closures or memory leaks in your code?
+
+What's the best practice for naming variables that are part of a closure to avoid naming conflicts?
+
+## Arrow Functions and Closures:
+
+How do arrow functions handle the "this" context compared to regular functions?
+
+What's the difference between the way arrow functions and regular functions handle closures?
+
+
+
+## Common Interview Questions:
+
+Can you explain the concept of hoisting and how it applies to variables and functions?
+
+Describe the difference between a function declaration and a function expression in terms of hoisting.
+
+How would you create a private variable in JavaScript?
+
+Explain how you can avoid the "callback hell" problem using closures and named functions.
+
+
+## Testing Your Knowledge:
+
+Write a function that uses closure to create a countdown timer.
+Implement a function that checks if a number is prime using closures.
+Create a simple counter using the module pattern to demonstrate closures.
+Miscellaneous:
+
+Can closures only be created with functions, or are there other ways?
+
+What's the relationship between lexical scoping and closures?
+
+Explain how closures can help manage state in functional programming.
+
+How does the use of closures affect the performance of your code?
+
+
+
+
 
 ## Basic Multiple-Choice Questions:
 
